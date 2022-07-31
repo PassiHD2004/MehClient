@@ -37,7 +37,7 @@ public abstract class SplashOverlayMixin extends Overlay {
 
     @Inject(at = @At("TAIL"), method = "init")
     private static void init(MinecraftClient client, CallbackInfo ci) {
-        LOGO = new Identifier("foxclient", "textures/foxclientsplash.png");
+        LOGO = new Identifier("foxclient", "textures/foxclientsplash.jpg");
 
         MOJANG_RED = ColorHelper.Argb.getArgb(255, 32, 32, 32);
         MONOCHROME_BLACK = ColorHelper.Argb.getArgb(255, 16, 16, 16);

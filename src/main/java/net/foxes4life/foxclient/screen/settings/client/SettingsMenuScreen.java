@@ -158,7 +158,7 @@ public class SettingsMenuScreen extends Screen {
         fill(matrices, 0, 0, this.client.getWindow().getScaledWidth(), this.client.getWindow().getScaledHeight(), 0xFF282828);
         fill(matrices, 0, 0, sidebarWidth, this.client.getWindow().getScaledHeight(), 0xFF383838);
 
-        drawStringWithShadow(matrices, this.textRenderer, "FoxClient Settings", 96, 10, 0xffffff);
+        drawStringWithShadow(matrices, this.textRenderer, "MehClient Settings", 96, 10, 0xffffff);
 
         assert this.client != null;
 

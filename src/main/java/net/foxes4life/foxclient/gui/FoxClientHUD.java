@@ -54,6 +54,7 @@ public class FoxClientHUD extends DrawableHelper {
         boolean fps = (boolean) Main.konfig.get("ingame-hud", "fps");
         boolean ping = (boolean) Main.konfig.get("ingame-hud", "ping");
         boolean tps = (boolean) Main.konfig.get("ingame-hud", "tps");
+        boolean server = (boolean) Main.konfig.get("ingame-hud", "server");
 
 
         if (version)
@@ -73,6 +74,8 @@ public class FoxClientHUD extends DrawableHelper {
         if (tps)
             textList.add(TextUtils.string(String.format("[TPS] " + ServerTickUtils.calculateServerTPS())));
 
+        if (server)
+            textList.add(TextUtils.string(String.format("[Server] " + MinecraftClient.getInstance().getCurrentServerEntry().address)));
         for (Text text : textList) {
             boxHeight += 10;
 

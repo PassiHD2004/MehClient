@@ -12,6 +12,8 @@ public class DiscordMinecraftClient {
                 return State.REALMS;
             } else if (MinecraftClient.getInstance().getServer() == null && (MinecraftClient.getInstance().getCurrentServerEntry() == null || !MinecraftClient.getInstance().getCurrentServerEntry().isLocal())) {
                 return State.MULTIPLAYER;
+            } else if (MinecraftClient.getInstance().getServer() == null && (MinecraftClient.getInstance().getCurrentServerEntry() == null || !MinecraftClient.getInstance().getCurrentServerEntry().isLocal())) {
+                return State.SUFFER;
             } else {
                 return State.LAN;
             }

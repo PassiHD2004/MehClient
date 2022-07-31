@@ -52,7 +52,7 @@ public class Discord implements ReadyCallback {
     public void initDC() {
         System.out.println("init");
         START_TIME = System.currentTimeMillis();
-        DiscordRPC.discordInitialize("805552222985388063", new DiscordEventHandlers.Builder().setReadyEventHandler(this).build(), true);
+        DiscordRPC.discordInitialize("1003138083392331826", new DiscordEventHandlers.Builder().setReadyEventHandler(this).build(), true);
         DiscordRPC.discordRunCallbacks();
 
         // Run callbacks forever
@@ -77,7 +77,7 @@ public class Discord implements ReadyCallback {
                 START_TIME = System.currentTimeMillis();
             }
 
-            presenceBuilder.setBigImage(PresenceUpdater.largeImage, "FoxClient " + Main.VERSION);
+            presenceBuilder.setBigImage(PresenceUpdater.largeImage, "MehClient " + Main.VERSION);
             presenceBuilder.setStartTimestamps(START_TIME);
 
             DiscordRPC.discordUpdatePresence(presenceBuilder.build());

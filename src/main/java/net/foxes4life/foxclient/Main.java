@@ -6,7 +6,7 @@ import net.foxes4life.konfig.Konfig;
 import net.foxes4life.konfig.data.KonfigCategory;
 
 public class Main implements ModInitializer {
-    public static final String FOXCLIENT_MOD_ID = "foxclient";
+    public static final String FOXCLIENT_MOD_ID = "mehclient";
     public static String VERSION = "";
     public static String JAVA_VERSION = "unknown";
 
@@ -24,7 +24,7 @@ public class Main implements ModInitializer {
             JAVA_VERSION = FabricLoader.getInstance().getModContainer("java").get().getMetadata().getVersion().getFriendlyString();
         }
 
-        System.out.println("FoxClient (recode) by Rooot and Flustix");
+        System.out.println("MehClient - Fork of FoxClient ツ");
         System.out.println(Main.VERSION);
     }
 
@@ -41,7 +41,7 @@ public class Main implements ModInitializer {
         KonfigCategory misc = new KonfigCategory("misc");
         misc.addEntry("discord-rpc", true);
         misc.addEntry("discord-rpc-show-ip", true);
-        misc.addEntry("smoothzoom", true);
+        misc.addEntry("zoom", true);
 
         KonfigCategory eastereggs = new KonfigCategory("eastereggs");
         eastereggs.addEntry("owo", false);
@@ -52,6 +52,7 @@ public class Main implements ModInitializer {
         ingameHUD.addEntry("fps", true);
         ingameHUD.addEntry("ping", true);
         ingameHUD.addEntry("tps", true);
+        ingameHUD.addEntry("server", true);
 
         konfig.addCategory(client);
         konfig.addCategory(menus);

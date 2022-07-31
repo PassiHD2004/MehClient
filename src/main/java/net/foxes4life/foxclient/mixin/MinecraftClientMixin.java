@@ -46,7 +46,7 @@ public abstract class MinecraftClientMixin {
 
     @Inject(at = @At("HEAD"), method = "getWindowTitle", cancellable = true)
     private void getWindowTitle(CallbackInfoReturnable<String> cir) {
-        String title = "FoxClient " + Main.VERSION;
+        String title = "MehClient";
 
         title += " | Minecraft " + SharedConstants.getGameVersion().getName();
 

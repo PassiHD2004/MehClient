@@ -35,7 +35,7 @@ import java.lang.reflect.InvocationTargetException;
 @Environment(EnvType.CLIENT)
 public class FoxClientTitleScreen extends Screen {
     private static int backgroundIndex = 0;
-    private static final int backgroundAmount = 3;
+    private static final int backgroundAmount = 1;
 
     // ui
     private static Identifier BACKGROUND = new Identifier("foxclient", "textures/ui/title/0.png");
@@ -58,7 +58,7 @@ public class FoxClientTitleScreen extends Screen {
     private int mojangCopyrightTextWidth;
     private int mojangCopyrightTextX;
 
-    private static final String foxclientCopyrightText = "© FoxClient 2021-2022";
+    private static final String foxclientCopyrightText = "© MehClient 2022 - FoxClient Fork ¯ \\_(ツ)_/¯";
     private int foxclientCopyrightTextX;
 
     private final boolean doBackgroundFade;
@@ -66,7 +66,7 @@ public class FoxClientTitleScreen extends Screen {
     private long backgroundFadeStart;
 
     public FoxClientTitleScreen(boolean doBackgroundFade) {
-        super(TextUtils.string("FoxClient"));
+        super(TextUtils.string("MehClient"));
         this.doBackgroundFade = doBackgroundFade;
     }
 
@@ -160,7 +160,7 @@ public class FoxClientTitleScreen extends Screen {
         }
 
         drawStringWithShadow(matrices, this.textRenderer, gameVersion, 4, this.height - 10, 16777215 | transparent);
-        drawStringWithShadow(matrices, this.textRenderer, "FoxClient "+ Main.VERSION, 4, this.height - 20, 16777215 | transparent);
+        drawStringWithShadow(matrices, this.textRenderer, "MehClient", 4, this.height - 20, 16777215 | transparent);
         drawStringWithShadow(matrices, this.textRenderer, foxclientCopyrightText, this.foxclientCopyrightTextX, this.height - 20, 16777215 | transparent);
 
         // draw buttons

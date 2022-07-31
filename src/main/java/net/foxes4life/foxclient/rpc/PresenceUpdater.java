@@ -19,13 +19,22 @@ public class PresenceUpdater {
             case LAN -> stateLine = I18n.translate("foxclient.rpc.state.lan");
             case MULTIPLAYER -> {
                 if ((boolean)Main.konfig.get("misc", "discord-rpc-show-ip")) {
-                    if(MinecraftClient.getInstance().getCurrentServerEntry() != null) {
+                    if(!MinecraftClient.getInstance().getCurrentServerEntry().address.startsWith("hypixel")) {
                         stateLine = I18n.translate("foxclient.rpc.state.multiplayer", MinecraftClient.getInstance().getCurrentServerEntry().address);
                     } else {
-                        stateLine = I18n.translate("foxclient.rpc.state.multiplayer.hide_ip");
+                        stateLine = I18n.translate("foxclient.rpc.state.suffer", MinecraftClient.getInstance().getCurrentServerEntry().address);
                     }
                 } else {
                     stateLine = I18n.translate("foxclient.rpc.state.multiplayer.hide_ip");
+                }
+            }
+            case SUFFER -> {
+                if ((boolean)Main.konfig.get("misc", "discord-rpc-show-ip")) {
+                    if(MinecraftClient.getInstance().getCurrentServerEntry() != null) {
+                        stateLine = I18n.translate("foxclient.rpc.state.suffer");
+                    } else {
+                        stateLine = I18n.translate("foxclient.rpc.state.suffer");
+                    }
                 }
             }
             case REALMS -> stateLine = I18n.translate("foxclient.rpc.state.realms");
@@ -35,11 +44,13 @@ public class PresenceUpdater {
         if((boolean)Main.konfig.get("misc", "discord-rpc") && Discord.initialised) {
             DiscordRichPresence.Builder builder = new DiscordRichPresence.Builder(stateLine)
                     .setDetails("Playing Minecraft "+SharedConstants.getGameVersion().getName())
-                    .setBigImage(largeImage, "FoxClient - A private Minecraft Mod")
-                    .setSmallImage("", "assets by flustix uwu");
+                    .setBigImage(largeImage, "MehClient - Just a Client")
+                    .setSmallImage("", "Fork of FoxClient");
             DiscordInstance.get().setActivity(builder);
         }
     }
+
+
 
     public static State getCurrentState() {
         return currentState;
