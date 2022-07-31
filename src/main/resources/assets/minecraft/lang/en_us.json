@@ -22,15 +22,15 @@
 
   "foxclient.gui.button.close": "Close",
 
-  "foxclient.gui.toast.title": "FoxClient",
+  "foxclient.gui.toast.title": "MehClient",
   "foxclient.gui.toast.modmenu.missing": "ModMenu isn't installed",
 
   "foxclient.debug.gui.button.configtest": "Debug Config",
 
-  "category.foxclient.main": "FoxClient",
+  "category.foxclient.main": "MehClient",
   "key.foxclient.toggle_hud": "Toggle HUD",
   "key.foxclient.freelook": "Freelook",
-  "key.foxclient.configKey": "FoxClient Config",
+  "key.foxclient.configKey": "MehClient Config",
   "key.foxclient.zoom": "Zoom",
 
   "foxclient.rpc.state.idle": "Idle",
@@ -39,18 +39,21 @@
   "foxclient.rpc.state.multiplayer": "Playing on %s",
   "foxclient.rpc.state.multiplayer.hide_ip": "Playing Multiplayer",
   "foxclient.rpc.state.realms": "Playing on a Realm",
+  "foxclient.rpc.state.suffer": "Currently Suffering on Hypixel",
 
   "foxclient.config.ingame-hud": "In-Game HUD",
   "foxclient.config.client": "Client",
   "foxclient.config.eastereggs": "EasterEggs",
   "foxclient.config.menus": "Custom Menus",
   "foxclient.config.misc": "Miscellaneous",
+  "foxclient.config.misc.zoom": "Smoothzoom enabled",
 
   "foxclient.config.ingame-hud.ping": "Ping",
   "foxclient.config.ingame-hud.tps": "TPS",
   "foxclient.config.ingame-hud.fps": "FPS",
   "foxclient.config.ingame-hud.version": "Version",
   "foxclient.config.ingame-hud.coords": "XYZ",
+  "foxclient.config.ingame-hud.server": "Server",
 
   "foxclient.config.client.hud-enabled" : "Enable In-Game HUD",
 

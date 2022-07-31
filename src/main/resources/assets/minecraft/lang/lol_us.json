@@ -29,6 +29,6 @@
   "foxclient.rpc.state.multiplayer": "Playing on %s",
   "foxclient.rpc.state.multiplayer.hide_ip": "Playing Multiplayer",
   "foxclient.rpc.state.realms": "Playing on a Realm",
-  "category.foxclient.main": "FoxClient",
+  "category.foxclient.main": "MehClient",
   "key.foxclient.freelook": "Freelook"
 }

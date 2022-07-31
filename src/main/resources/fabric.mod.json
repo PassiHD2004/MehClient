@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "foxclient",
+  "id": "mehclient",
   "version": "${version}",
-  "name": "FoxClient",
-  "description": "stoopid uwu",
+  "name": "MehClient",
+  "description": "Fork of FoxClient",
   "authors": [
     "Rooot",
-    "Flustix"
+    "Flustix",
+    "PassiHD"
   ],
   "contact": {
     "homepage": "https://client.foxes4life.net/",
-    "sources": "https://github.com/FoxStudios/FoxClient"
+    "sources": ""
   },
   "license": "GPLv3",
   "icon": "assets/foxclient/icon.png",
