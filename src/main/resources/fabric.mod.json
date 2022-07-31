@@ -11,7 +11,8 @@
   ],
   "contact": {
     "homepage": "https://client.foxes4life.net/",
-    "sources": ""
+    "Fork Sources": "https://github.com/PassiHD2004/MehClient",
+    "Original Sources": "https://github.com/FoxStudios/FoxClient"
   },
   "license": "GPLv3",
   "icon": "assets/foxclient/icon.png",
