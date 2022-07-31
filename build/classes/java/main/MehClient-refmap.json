@@ -1,0 +1,104 @@
+{
+  "mappings": {
+    "net/foxes4life/foxclient/mixin/MouseMixin": {
+      "onMouseScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+    },
+    "net/foxes4life/foxclient/mixin/SplashOverlayMixin": {
+      "init": "Lnet/minecraft/class_425;method_18819(Lnet/minecraft/class_310;)V",
+      "renderProgressBar": "Lnet/minecraft/class_425;method_18103(Lnet/minecraft/class_4587;IIIIF)V"
+    },
+    "net/foxes4life/foxclient/mixin/TranslationStorageMixin": {
+      "get": "Lnet/minecraft/class_1078;method_4679(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    "net/foxes4life/foxclient/mixin/EntityMixin": {
+      "changeLookDirection": "Lnet/minecraft/class_1297;method_5872(DD)V"
+    },
+    "net/foxes4life/foxclient/mixin/MinecraftClientMixin": {
+      "getWindowTitle": "Lnet/minecraft/class_310;method_24287()Ljava/lang/String;",
+      "Lnet/minecraft/client/util/Window;setIcon(Ljava/io/InputStream;Ljava/io/InputStream;)V": "Lnet/minecraft/class_1041;method_4491(Ljava/io/InputStream;Ljava/io/InputStream;)V",
+      "openPauseMenu": "Lnet/minecraft/class_310;method_20539(Z)V"
+    },
+    "net/foxes4life/foxclient/mixin/InGameHUDMixin": {
+      "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V"
+    },
+    "net/foxes4life/foxclient/mixin/GameRendererMixin": {
+      "getFov": "Lnet/minecraft/class_757;method_3196(Lnet/minecraft/class_4184;FZ)D"
+    },
+    "net/foxes4life/foxclient/mixin/TitleScreenMixin": {
+      "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_4587;IIF)V"
+    },
+    "net/foxes4life/foxclient/mixin/DisconnectedScreenMixin": {
+      "init": "Lnet/minecraft/class_419;method_25426()V"
+    },
+    "net/foxes4life/foxclient/mixin/LoadingScreenMixin": {
+      "render": "Lnet/minecraft/class_3928;method_25394(Lnet/minecraft/class_4587;IIF)V"
+    },
+    "net/foxes4life/foxclient/mixin/PlayerListEntryMixin": {
+      "loadTextures()V": "Lnet/minecraft/class_640;method_2969()V"
+    },
+    "net/foxes4life/foxclient/mixin/CameraMixin": {
+      "update": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V",
+      "Lnet/minecraft/client/render/Camera;setRotation(FF)V": "Lnet/minecraft/class_4184;method_19325(FF)V"
+    },
+    "net/foxes4life/foxclient/mixin/LiteralTextMixin": {
+      "string": "Lnet/minecraft/class_2585;comp_737()Ljava/lang/String;"
+    },
+    "net/foxes4life/foxclient/mixin/ClientPlayNetworkHandlerMixin": {
+      "onDisconnected": "Lnet/minecraft/class_634;method_10839(Lnet/minecraft/class_2561;)V",
+      "onGameJoin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+      "onWorldTimeUpdate": "Lnet/minecraft/class_634;method_11079(Lnet/minecraft/class_2761;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/foxes4life/foxclient/mixin/MouseMixin": {
+        "onMouseScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+      },
+      "net/foxes4life/foxclient/mixin/SplashOverlayMixin": {
+        "init": "Lnet/minecraft/class_425;method_18819(Lnet/minecraft/class_310;)V",
+        "renderProgressBar": "Lnet/minecraft/class_425;method_18103(Lnet/minecraft/class_4587;IIIIF)V"
+      },
+      "net/foxes4life/foxclient/mixin/TranslationStorageMixin": {
+        "get": "Lnet/minecraft/class_1078;method_4679(Ljava/lang/String;)Ljava/lang/String;"
+      },
+      "net/foxes4life/foxclient/mixin/EntityMixin": {
+        "changeLookDirection": "Lnet/minecraft/class_1297;method_5872(DD)V"
+      },
+      "net/foxes4life/foxclient/mixin/MinecraftClientMixin": {
+        "getWindowTitle": "Lnet/minecraft/class_310;method_24287()Ljava/lang/String;",
+        "Lnet/minecraft/client/util/Window;setIcon(Ljava/io/InputStream;Ljava/io/InputStream;)V": "Lnet/minecraft/class_1041;method_4491(Ljava/io/InputStream;Ljava/io/InputStream;)V",
+        "openPauseMenu": "Lnet/minecraft/class_310;method_20539(Z)V"
+      },
+      "net/foxes4life/foxclient/mixin/InGameHUDMixin": {
+        "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V"
+      },
+      "net/foxes4life/foxclient/mixin/GameRendererMixin": {
+        "getFov": "Lnet/minecraft/class_757;method_3196(Lnet/minecraft/class_4184;FZ)D"
+      },
+      "net/foxes4life/foxclient/mixin/TitleScreenMixin": {
+        "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_4587;IIF)V"
+      },
+      "net/foxes4life/foxclient/mixin/DisconnectedScreenMixin": {
+        "init": "Lnet/minecraft/class_419;method_25426()V"
+      },
+      "net/foxes4life/foxclient/mixin/LoadingScreenMixin": {
+        "render": "Lnet/minecraft/class_3928;method_25394(Lnet/minecraft/class_4587;IIF)V"
+      },
+      "net/foxes4life/foxclient/mixin/PlayerListEntryMixin": {
+        "loadTextures()V": "Lnet/minecraft/class_640;method_2969()V"
+      },
+      "net/foxes4life/foxclient/mixin/CameraMixin": {
+        "update": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V",
+        "Lnet/minecraft/client/render/Camera;setRotation(FF)V": "Lnet/minecraft/class_4184;method_19325(FF)V"
+      },
+      "net/foxes4life/foxclient/mixin/LiteralTextMixin": {
+        "string": "Lnet/minecraft/class_2585;comp_737()Ljava/lang/String;"
+      },
+      "net/foxes4life/foxclient/mixin/ClientPlayNetworkHandlerMixin": {
+        "onDisconnected": "Lnet/minecraft/class_634;method_10839(Lnet/minecraft/class_2561;)V",
+        "onGameJoin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+        "onWorldTimeUpdate": "Lnet/minecraft/class_634;method_11079(Lnet/minecraft/class_2761;)V"
+      }
+    }
+  }
+}

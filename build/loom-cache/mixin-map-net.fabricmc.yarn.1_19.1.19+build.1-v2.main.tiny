@@ -1,0 +1,17 @@
+v1	named	intermediary
+FIELD	net/foxes4life/foxclient/mixin/ClientPlayNetworkHandlerMixin	Lnet/minecraft/client/MinecraftClient;	client	field_3690
+FIELD	net/foxes4life/foxclient/mixin/DisconnectedScreenMixin	Lnet/minecraft/client/gui/screen/Screen;	parent	field_2456
+FIELD	net/foxes4life/foxclient/mixin/InGameHUDMixin	Lnet/minecraft/client/MinecraftClient;	client	field_2035
+FIELD	net/foxes4life/foxclient/mixin/LoadingScreenMixin	Lnet/minecraft/client/gui/WorldGenerationProgressTracker;	progressProvider	field_17406
+FIELD	net/foxes4life/foxclient/mixin/LoadingScreenMixin	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	STATUS_TO_COLOR	field_17407
+FIELD	net/foxes4life/foxclient/mixin/MinecraftClientMixin	Lnet/minecraft/server/integrated/IntegratedServer;	server	field_1766
+FIELD	net/foxes4life/foxclient/mixin/MinecraftClientMixin	Lnet/minecraft/client/network/ServerInfo;	currentServerEntry	field_1699
+FIELD	net/foxes4life/foxclient/mixin/PlayerListEntryMixin	Lcom/mojang/authlib/GameProfile;	profile	field_3741
+FIELD	net/foxes4life/foxclient/mixin/PlayerListEntryMixin	Ljava/util/Map;	textures	field_3742
+FIELD	net/foxes4life/foxclient/mixin/PlayerListEntryMixin	Z	texturesLoaded	field_3740
+FIELD	net/foxes4life/foxclient/mixin/SplashOverlayMixin	I	MOJANG_RED	field_32249
+FIELD	net/foxes4life/foxclient/mixin/SplashOverlayMixin	I	MONOCHROME_BLACK	field_32250
+FIELD	net/foxes4life/foxclient/mixin/SplashOverlayMixin	Lnet/minecraft/util/Identifier;	LOGO	field_2483
+FIELD	net/foxes4life/foxclient/mixin/SplashOverlayMixin	F	progress	field_17770
+FIELD	net/foxes4life/foxclient/mixin/SplashOverlayMixin	Lnet/minecraft/client/MinecraftClient;	client	field_18217
+METHOD	net/foxes4life/foxclient/mixin/CameraMixin	(FF)V	setRotation	method_19325

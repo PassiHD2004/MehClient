@@ -47,15 +47,6 @@ dependencies {
 processResources {
 	inputs.property "version", project.version
 
-	filesMatching("fabric.mod.json") {
-		filter {
-			it.replace("#githash#", grgit.head().abbreviatedId as String)
-		}
-		filter {
-			it.replace("#branch#", grgit.branch.current().getName() as String)
-		}
-		expand "version": project.version
-	}
 }
 
 tasks.withType(JavaCompile).configureEach {
