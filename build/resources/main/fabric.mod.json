@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "mehclient",
+  "version": "${version}",
+  "name": "MehClient",
+  "description": "Fork of FoxClient",
+  "authors": [
+    "Rooot",
+    "Flustix",
+    "PassiHD"
+  ],
+  "contact": {
+    "homepage": "https://client.foxes4life.net/",
+    "sources": ""
+  },
+  "license": "GPLv3",
+  "icon": "assets/foxclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.foxes4life.foxclient.Main"
+    ],
+    "client": [
+      "net.foxes4life.foxclient.MainClient"
+    ]
+  },
+  "mixins": [
+    "foxclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.2",
+    "fabric": "*",
+    "minecraft": "1.19.x"
+  },
+  "recommends": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/GaKKeWg"
+      }
+    }
+  }
+}

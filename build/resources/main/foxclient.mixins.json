@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.foxes4life.foxclient.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "DisconnectedScreenMixin",
+    "GameRendererMixin",
+    "InGameHUDMixin",
+    "LiteralTextMixin",
+    "TranslationStorageMixin",
+    "MinecraftClientMixin",
+    "MouseMixin",
+    "PlayerListEntryMixin",
+    "SplashOverlayMixin",
+    "TitleScreenMixin",
+    "EntityMixin",
+    "CameraMixin",
+    "LoadingScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
