@@ -1,4 +1,4 @@
-# MehClient
+# MehClient (Discontinued)
 A Fabric (and Quilt) Mod that changes the look of the Minecraft UI and adds some features.
 
 ## Features
@@ -14,3 +14,4 @@ NO [here's why](https://v.foxes4life.net/trol.png)
 
 #### This is a Fork of FoxClient
 Please respect the original Creators: https://github.com/FoxStudios/FoxClient
+
