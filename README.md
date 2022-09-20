@@ -15,3 +15,5 @@ NO [here's why](https://v.foxes4life.net/trol.png)
 #### This is a Fork of FoxClient
 Please respect the original Creators: https://github.com/FoxStudios/FoxClient
 
+## Why is it discontinued?
+I decided to work on the official Client instead, so this one wont get updated anymore. And its way harder maintaining a fork as i thought.
